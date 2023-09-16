@@ -1,0 +1,291 @@
+/* Navbar styling */
+body{
+  height: 90vh;
+}
+.navbar{
+    background-color:#45b589;
+}
+.navbar a{
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+.nav-link{
+  color:#9E9E9E;
+  font-size:20px;
+  font-weight: 800px;
+}
+.link:hover {
+  color: none;
+}
+
+
+/* Carousal Container Styling */
+
+.list-group-item{
+    text-align: left;
+    cursor: pointer;
+}
+.carousel-item img{
+height: 90vh;
+}
+
+/* Categories Styling */
+.listtag{
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
+  color: #009688;
+  font-size: 20px;
+}
+.list-group-item {
+  transition: text-decoration 0.6s ease;
+}
+.list-group-item:hover {
+  text-decoration: underline;
+}
+
+.supportBox{
+    font-size:15px;
+    font-weight: bold;
+}
+
+.Blog_heading h1{
+  padding: 30px;
+  text-align: center;
+}
+/* product items style */
+.card-img{
+    /* height: 300px; */
+  object-fit: cover;
+  width: 100%;
+  height:300px;
+}
+
+/* Product item page card styling */
+.card-body{
+    text-align: left;
+    margin:10px ;
+  }
+.card-button{
+  background: #fff;
+    border:2px solid #1bbc9b;
+    margin:10px;
+  
+}
+.card-button a{
+    color: #1bbc9b;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* product Item page dropdown styling */
+#sortOption{
+    margin-top: 30px;
+    padding: 1px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid #009688;
+    color: #33383c;
+}
+
+/* Footer Styling */
+.bg-footer {
+    background-color: #33383c;
+}
+.footer-alt{
+  padding:30px;
+}
+/* cart page */
+.col-7{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.col-4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.cartButton{
+    padding:10px;
+}
+
+/* Congratulation page */
+
+.contain{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+.contain h1{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:1.4em;
+	color: #02b3e4;
+  background-color: #5f9ea085;
+}
+
+.congrats{
+	position:relative;
+	left:50%;
+	top:50%;
+	max-width:800px;	transform:translate(-50%,-50%);
+	width:80%;
+	min-height:300px;
+	max-height:900px;
+	border:2px solid white;
+	border-radius:5px;
+	box-shadow: 12px 15px 20px 0 rgba(46,61,73,.3);
+  background-image: linear-gradient(to bottom right,#02b3e4,#02ccba);
+	background:#fff;
+	text-align:center;
+	font-size:2em;
+	color: #189086;
+}
+
+.text{
+	position:relative;
+	font-weight:normal;
+	left:0;
+	right:0;
+	margin:auto;
+	width:80%;
+	max-width:800px;
+
+	font-family: 'Lato', sans-serif;
+	font-size:0.6em;
+
+}
+
+/* ShippingPaymentForm.css */
+
+/* Style the container */
+.form-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: #f4f4f4; 
+}
+
+/* Style the form box */
+.form-box {
+  background-color: #fff; 
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+  border-radius: 5px; 
+  max-width: 400px; 
+  width: 100%; 
+}
+
+/* Style form elements (add more as needed) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* ShippingPaymentForm.css */
+
+/* Style the container */
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f4f4f4; 
+  }
+  
+  /* Style the form box */
+  .form-box {
+    background-color: #fff; 
+    padding:15px;
+    border-radius: 5px; 
+    max-width: 400px; 
+    width: 100%;
+    margin:20px;
+  }
+  
+  /* Style form elements (add more as needed) */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+/* Cart page styling */
+  .cartTag{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+  }
+  .Paymentbtn{
+    background: white;
+    border: 2px solid #189086;
+    color: #189086;
+    margin:20px;
+  }
+  .shop_cart_btn{
+    background: white;
+    border: 2px solid #189086;
+    color: #189086;
+  }
+ 
